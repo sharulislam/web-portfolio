@@ -6,6 +6,12 @@ h1{
   font-size: 50px;
   
 }
+h2{
+  font-size: 40px;
+}
+p{
+  color: dimgray;
+}
 .name-highlight{
   color:orange;
 }
@@ -14,14 +20,50 @@ h1{
   float: left;
   margin-left: 5%;
   padding-left: 2%;
+  
 }
-.half-width img{
-  width: 90%;
+.topbannerimg{
+  width: 80%;
 }
+
 .top-banner{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
 section{
   height: 500px;
+  padding-bottom: 60px;
+}
+  
+.link-button{
+ 
+  text-decoration:none;
+  background-image: linear-gradient(50deg,salmon,red);
+  color: aliceblue;
+  font-weight: 700; 
+  font-size:20px;
+  
+  border-radius: 5px;
+  padding: 1px 15px;
+  
+  
+}
+.dreamareaimg{
+  width: 100%;
+}
+#dream{
+  padding-top: 200px;
+}
+.dream-button{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-image: linear-gradient(50deg,salmon,red);
+  font-weight: 700;
+}
+.dream-area{
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
